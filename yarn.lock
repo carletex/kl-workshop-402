@@ -179,6 +179,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@base-org/account@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@base-org/account@npm:1.1.1"
+  dependencies:
+    "@noble/hashes": 1.4.0
+    clsx: 1.2.1
+    eventemitter3: 5.0.1
+    idb-keyval: 6.2.1
+    ox: 0.6.9
+    preact: 10.24.2
+    viem: ^2.31.7
+    zustand: 5.0.3
+  checksum: f2eae7b3e9ab88c181e0902f952611812fd3f2d9fe092e9082d5c6fcee1e77445eb8090b01d7104963263c44a2f320536d45521a5a935febde1405a01cb6c496
+  languageName: node
+  linkType: hard
+
 "@base-org/account@npm:2.4.0":
   version: 2.4.0
   resolution: "@base-org/account@npm:2.4.0"
@@ -212,7 +228,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@coinbase/cdp-sdk@npm:^1.0.0, @coinbase/cdp-sdk@npm:^1.22.0, @coinbase/cdp-sdk@npm:^1.29.0":
+"@coinbase/cdp-sdk@npm:^1.0.0, @coinbase/cdp-sdk@npm:^1.22.0":
   version: 1.44.0
   resolution: "@coinbase/cdp-sdk@npm:1.44.0"
   dependencies:
@@ -245,18 +261,6 @@ __metadata:
     viem: ^2.27.2
     zustand: 5.0.3
   checksum: 9c193bcc715c709245893ceae02ebb127e7a25723887f8aee59d9cd1bf8e2a9204ff2e2636d06a434825785b675f57368fde351d09ed295c12b040f43a4b845a
-  languageName: node
-  linkType: hard
-
-"@coinbase/x402@npm:~0.6.6":
-  version: 0.6.6
-  resolution: "@coinbase/x402@npm:0.6.6"
-  dependencies:
-    "@coinbase/cdp-sdk": ^1.29.0
-    viem: ^2.21.26
-    x402: ^0.6.6
-    zod: ^3.24.2
-  checksum: 250f5d20a4f9b418936239ef84b4ff3354587889cda1dc1b05dd977a148a9256c0aeae790a91fd82a7eededcac7fa4142b409b844266d3a6f22f97078a6b3ffc
   languageName: node
   linkType: hard
 
@@ -1331,6 +1335,18 @@ __metadata:
   version: 2.1.1
   resolution: "@fastify/busboy@npm:2.1.1"
   checksum: 42c32ef75e906c9a4809c1e1930a5ca6d4ddc8d138e1a8c8ba5ea07f997db32210617d23b2e4a85fe376316a41a1a0439fc6ff2dedf5126d96f45a9d80754fb2
+  languageName: node
+  linkType: hard
+
+"@gemini-wallet/core@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@gemini-wallet/core@npm:0.2.0"
+  dependencies:
+    "@metamask/rpc-errors": 7.0.2
+    eventemitter3: 5.0.1
+  peerDependencies:
+    viem: ">=2.0.0"
+  checksum: 0301be3d5eb05cabf4a88c820a5317e129433416bd18f661d178fd9dfab4a7288c74fbe506955c3578a2d89883025b1115cdcc9f27d24c562ad92f2b57fcb177
   languageName: node
   linkType: hard
 
@@ -3872,6 +3888,9 @@ __metadata:
     "@types/qrcode": ~1.5.5
     "@typescript-eslint/eslint-plugin": ~8.27.0
     "@typescript-eslint/parser": ~8.27.0
+    "@x402/core": ^2.2.0
+    "@x402/evm": ^2.2.0
+    "@x402/fetch": ^2.2.0
     chai: ~4.5.0
     dotenv: ~16.4.5
     envfile: ~7.1.0
@@ -3891,7 +3910,6 @@ __metadata:
     typechain: ~8.3.2
     typescript: ^5.8.2
     viem: ^2.38.4
-    x402-fetch: ~0.6.6
   languageName: unknown
   linkType: soft
 
@@ -3899,7 +3917,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@se-2/nextjs@workspace:packages/nextjs"
   dependencies:
-    "@coinbase/x402": ~0.6.6
     "@heroicons/react": ~2.1.5
     "@rainbow-me/rainbowkit": 2.2.9
     "@react-native-async-storage/async-storage": ~2.2.0
@@ -3911,6 +3928,10 @@ __metadata:
     "@trivago/prettier-plugin-sort-imports": ~4.3.0
     "@types/node": ~18.19.50
     "@types/react": ~19.0.7
+    "@x402/core": ^2.2.0
+    "@x402/evm": ^2.2.0
+    "@x402/next": ^2.2.0
+    "@x402/paywall": ^2.2.0
     abitype: 1.0.6
     autoprefixer: ~10.4.20
     bgipfs: ~0.0.12
@@ -3938,7 +3959,6 @@ __metadata:
     vercel: ~39.1.3
     viem: 2.39.0
     wagmi: 2.19.5
-    x402-next: ^0.6.5
     zustand: ~5.0.0
   languageName: unknown
   linkType: soft
@@ -5392,6 +5412,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@solana/wallet-standard-features@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@solana/wallet-standard-features@npm:1.3.0"
+  dependencies:
+    "@wallet-standard/base": ^1.1.0
+    "@wallet-standard/features": ^1.1.0
+  checksum: ee303ae145a734a0ef4592d3da4bcb888956dbb5dc69759cbec2050b3fa6ffe09ca4ae037d254ba438d687b8d7c70902037276197cfb52b7a2c3851be7d5edeb
+  languageName: node
+  linkType: hard
+
 "@solana/web3.js@npm:^1.98.1":
   version: 1.98.4
   resolution: "@solana/web3.js@npm:1.98.4"
@@ -5612,6 +5642,24 @@ __metadata:
   version: 5.59.20
   resolution: "@tanstack/query-core@npm:5.59.20"
   checksum: ed836033c7f34a61e7f152da1067ec170e36e861dc591e2a068f73918bcc641bb50ce90dc3b8d12e047f63f70b2842f72e3328d649c841f5c4ea51fdb95e454b
+  languageName: node
+  linkType: hard
+
+"@tanstack/query-core@npm:5.90.20":
+  version: 5.90.20
+  resolution: "@tanstack/query-core@npm:5.90.20"
+  checksum: 47a94b3b8f9d68db6622183cbb2c0e7e79f2e71f4664e3b7b51f24fb77800188d919b5f35f522107518a2bcf7b345948e51b24c86e47c62fbaaa9788a9c61b40
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.90.7":
+  version: 5.90.20
+  resolution: "@tanstack/react-query@npm:5.90.20"
+  dependencies:
+    "@tanstack/query-core": 5.90.20
+  peerDependencies:
+    react: ^18 || ^19
+  checksum: 003bc33f0c1c63e64d44d6a7801ab203c835c4f3f1b31ba0d29844c9448ed5ee398f0345fb24d5a2c6560ffda5333cb866cbab0cec33ea7aa61920103727bd84
   languageName: node
   linkType: hard
 
@@ -6739,7 +6787,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wagmi/core@npm:2.22.1":
+"@wagmi/connectors@npm:^5.8.1":
+  version: 5.11.2
+  resolution: "@wagmi/connectors@npm:5.11.2"
+  dependencies:
+    "@base-org/account": 1.1.1
+    "@coinbase/wallet-sdk": 4.3.6
+    "@gemini-wallet/core": 0.2.0
+    "@metamask/sdk": 0.33.1
+    "@safe-global/safe-apps-provider": 0.18.6
+    "@safe-global/safe-apps-sdk": 9.1.0
+    "@walletconnect/ethereum-provider": 2.21.1
+    cbw-sdk: "npm:@coinbase/wallet-sdk@3.9.3"
+    porto: 0.2.19
+  peerDependencies:
+    "@wagmi/core": 2.21.2
+    typescript: ">=5.0.4"
+    viem: 2.x
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 2cd5937e5ee5e84e3085dfa86d562381c12c3635da185d148d8a0cbf07af8a414a8636e0b16066bd4b9f6757def7bf9e52e29c5a7fb79cf6c501ce160f8b4a0c
+  languageName: node
+  linkType: hard
+
+"@wagmi/core@npm:2.22.1, @wagmi/core@npm:^2.17.1":
   version: 2.22.1
   resolution: "@wagmi/core@npm:2.22.1"
   dependencies:
@@ -6756,6 +6828,31 @@ __metadata:
     typescript:
       optional: true
   checksum: 5f9621024cb2a86825d6d1c62bb0d795f10dc60a16b4cc9ac78c72533889066a00c37ef8582169d5533d7d4061440397b1fa4cf86e69424036759e3413b6a765
+  languageName: node
+  linkType: hard
+
+"@wallet-standard/app@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@wallet-standard/app@npm:1.1.0"
+  dependencies:
+    "@wallet-standard/base": ^1.1.0
+  checksum: 0ae77b20f7c5e1cd1d213c96fd79118eba63475eef37a164fa7dc5b38e4d48037ae3dd7152b7f44b336d324d1880682c9a0c044f74d4fbd0980866ad06120326
+  languageName: node
+  linkType: hard
+
+"@wallet-standard/base@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@wallet-standard/base@npm:1.1.0"
+  checksum: 4057188f615f1deeb0c8a39f04018d4575f87cb387749dab6bc2e8232a95400be51ea4235450829bb256aa21136621f47167383ef1767f0eb3109f1140c74d86
+  languageName: node
+  linkType: hard
+
+"@wallet-standard/features@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@wallet-standard/features@npm:1.1.0"
+  dependencies:
+    "@wallet-standard/base": ^1.1.0
+  checksum: c0c101ee0bd4c55619e39505d15158132bbd619f4dc611880a4b0c001e96806957bed35d7a51efdff0077cf5afb01e0dc46a32b01d9d8c27f807fc2b61e92159
   languageName: node
   linkType: hard
 
@@ -7164,6 +7261,94 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@x402/core@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@x402/core@npm:2.2.0"
+  dependencies:
+    zod: ^3.24.2
+  checksum: 02b945ef00fbd672d8343898a09c8d1d5b9d1591b546818bc7e3b8310d930180ff84999cc0d3728b8b994401276bdf3b96e2aa7e67c70630db30ad02d91b481d
+  languageName: node
+  linkType: hard
+
+"@x402/evm@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@x402/evm@npm:2.2.0"
+  dependencies:
+    "@x402/core": ^2.2.0
+    viem: ^2.39.3
+    zod: ^3.24.2
+  checksum: 6d1247368ee9c283fed2e7468973b9752d2642bf9c3c369d04f77b202fb6df30a38b0abf23901915e8df0add30ca2494d6bb0e23a84f2d924b76d9604287ce1d
+  languageName: node
+  linkType: hard
+
+"@x402/extensions@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@x402/extensions@npm:2.2.0"
+  dependencies:
+    "@x402/core": ^2.2.0
+    ajv: ^8.17.1
+    zod: ^3.24.2
+  checksum: cb6087cc010bf1893ae5f2955e439a51c60a9184884d8bdc62712b6046108ad45e2fb171ed53df34c42443d32194e10eb55b712ccb3faa4252201d545356e8c7
+  languageName: node
+  linkType: hard
+
+"@x402/fetch@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@x402/fetch@npm:2.2.0"
+  dependencies:
+    "@x402/core": ^2.2.0
+    viem: ^2.39.3
+    zod: ^3.24.2
+  checksum: 64b47bd8d3450b096c505e3d76de180b5d46aedda5f56e8e05891ac75c4a4f3f479cdda3ae5ea1708d7d768de24113a629afbd71967408757891284591f77351
+  languageName: node
+  linkType: hard
+
+"@x402/next@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@x402/next@npm:2.2.0"
+  dependencies:
+    "@coinbase/cdp-sdk": ^1.22.0
+    "@x402/core": ^2.2.0
+    "@x402/extensions": ^2.2.0
+    zod: ^3.24.2
+  peerDependencies:
+    "@x402/paywall": 2.2.0
+    next: ^16.0.10
+  peerDependenciesMeta:
+    "@x402/paywall":
+      optional: true
+  checksum: 39a5b57a3c939a8cb9bacbe6317ce403b4335c4acf3efc6e9a3930da3d48f116da245568ac92787926a5a434c453c2bab27408c6b66587ccfb40a45739dd2d8e
+  languageName: node
+  linkType: hard
+
+"@x402/paywall@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@x402/paywall@npm:2.2.0"
+  dependencies:
+    "@scure/base": ^1.2.6
+    "@solana-program/compute-budget": ^0.8.0
+    "@solana-program/token": ^0.5.1
+    "@solana-program/token-2022": ^0.4.2
+    "@solana/kit": ^2.1.1
+    "@solana/transaction-confirmation": ^2.1.1
+    "@solana/wallet-standard-features": ^1.3.0
+    "@tanstack/react-query": ^5.90.7
+    "@wagmi/connectors": ^5.8.1
+    "@wagmi/core": ^2.17.1
+    "@wallet-standard/app": ^1.1.0
+    "@wallet-standard/base": ^1.1.0
+    "@wallet-standard/features": ^1.1.0
+    "@x402/core": ^2.2.0
+    viem: ^2.39.3
+    wagmi: ^2.17.1
+    zod: ^3.24.2
+  peerDependencies:
+    react: ^19.0.0
+    react-dom: ^19.0.0
+  checksum: 3c37012d0d909b0de1a6145f20e6ad83c10ede75b7a9114936fd3eaa6045668236fdcfebd750520f69a6ef6f4fefa104522b5d2f3f3ec6572db84e6b36b6e384
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -7391,7 +7576,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^8.0.1":
+"ajv@npm:^8.0.1, ajv@npm:^8.17.1":
   version: 8.17.1
   resolution: "ajv@npm:8.17.1"
   dependencies:
@@ -11981,7 +12166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:^4.10.3":
+"hono@npm:^4.10.3, hono@npm:^4.9.6":
   version: 4.11.7
   resolution: "hono@npm:4.11.7"
   checksum: 6dc49cc1ac8ae597bd7c67e317dbb3a04c12c02841d6b56735df6be1876700daaedebe16554422f90d99a1d8b7a8479af8d1572a6b77e6ce0957e7e3cd8fd529
@@ -15972,6 +16157,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"porto@npm:0.2.19":
+  version: 0.2.19
+  resolution: "porto@npm:0.2.19"
+  dependencies:
+    hono: ^4.9.6
+    idb-keyval: ^6.2.1
+    mipd: ^0.0.7
+    ox: ^0.9.6
+    zod: ^4.1.5
+    zustand: ^5.0.1
+  peerDependencies:
+    "@tanstack/react-query": ">=5.59.0"
+    "@wagmi/core": ">=2.16.3"
+    react: ">=18"
+    typescript: ">=5.4.0"
+    viem: ">=2.37.0"
+    wagmi: ">=2.0.0"
+  peerDependenciesMeta:
+    "@tanstack/react-query":
+      optional: true
+    react:
+      optional: true
+    typescript:
+      optional: true
+    wagmi:
+      optional: true
+  bin:
+    porto: _dist/cli/bin/index.js
+  checksum: 44e8ab54e0beb5b8f850b93f847ea1807de84e6c4c15024d187ba1bdfe56e03b1d0e3addc33650b19fc6e453b76c3b68a60f2acc106b57602c519449ca72d799
+  languageName: node
+  linkType: hard
+
 "porto@npm:0.2.35":
   version: 0.2.35
   resolution: "porto@npm:0.2.35"
@@ -19373,7 +19590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"viem@npm:>=2.29.0, viem@npm:^2.1.1, viem@npm:^2.21.26, viem@npm:^2.27.0, viem@npm:^2.27.2, viem@npm:^2.31.7, viem@npm:^2.38.4":
+"viem@npm:>=2.29.0, viem@npm:^2.1.1, viem@npm:^2.21.26, viem@npm:^2.27.0, viem@npm:^2.27.2, viem@npm:^2.31.7, viem@npm:^2.38.4, viem@npm:^2.39.3":
   version: 2.45.1
   resolution: "viem@npm:2.45.1"
   dependencies:
@@ -19394,7 +19611,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wagmi@npm:2.19.5, wagmi@npm:^2.15.6":
+"wagmi@npm:2.19.5, wagmi@npm:^2.17.1":
   version: 2.19.5
   resolution: "wagmi@npm:2.19.5"
   dependencies:
@@ -19813,49 +20030,6 @@ __metadata:
     utf-8-validate:
       optional: true
   checksum: 7a426122c373e053a65a2affbcdcdbf8f643ba0265577afd4e08595397ca244c05de81570300711e2363a9dab5aea3ae644b445bc7468b1ebbb51bfe2efb20e1
-  languageName: node
-  linkType: hard
-
-"x402-fetch@npm:~0.6.6":
-  version: 0.6.6
-  resolution: "x402-fetch@npm:0.6.6"
-  dependencies:
-    viem: ^2.21.26
-    x402: ^0.6.6
-    zod: ^3.24.2
-  checksum: 73f2731b7792f848dc3078e66f0fc09fd710d861ad55ca931d46cbe45c6e52fcb0624bd9cd6b59cec73f42137f23e6bdc33301b2899321e161c96578c5ba4db8
-  languageName: node
-  linkType: hard
-
-"x402-next@npm:^0.6.5":
-  version: 0.6.5
-  resolution: "x402-next@npm:0.6.5"
-  dependencies:
-    "@coinbase/cdp-sdk": ^1.22.0
-    "@solana/kit": ^2.1.1
-    viem: ^2.21.26
-    x402: ^0.6.5
-    zod: ^3.24.2
-  peerDependencies:
-    next: ^15.0.0
-  checksum: 511d04475d79cd8538f5229d49bead172a25a3635df7a07e973d82a8d00b85a51fbba5f3285621379256e33ac7ca02d3af2dc162d552a07951acfb11e83e0c3f
-  languageName: node
-  linkType: hard
-
-"x402@npm:^0.6.5, x402@npm:^0.6.6":
-  version: 0.6.6
-  resolution: "x402@npm:0.6.6"
-  dependencies:
-    "@scure/base": ^1.2.6
-    "@solana-program/compute-budget": ^0.8.0
-    "@solana-program/token": ^0.5.1
-    "@solana-program/token-2022": ^0.4.2
-    "@solana/kit": ^2.1.1
-    "@solana/transaction-confirmation": ^2.1.1
-    viem: ^2.21.26
-    wagmi: ^2.15.6
-    zod: ^3.24.2
-  checksum: 20544a096f12697e18b1a1f5c6c9ca0dd7cbfd4217ec9c55160f5d67b58200eccd90ddd82b61cc80d3ecebdf5ed3aef81531222c9637bbf831b904b22b220298
   languageName: node
   linkType: hard
 
