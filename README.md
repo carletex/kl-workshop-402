@@ -3,7 +3,7 @@
 To start you own x402 project use:
 
 ```shell
-npx create-eth@latest -e scaffold-eth/create-eth-extensions:x402-v2
+npx create-eth@latest -e scaffold-eth/create-eth-extensions:x402
 ```
 
 ---
@@ -336,7 +336,7 @@ if (agentReputation >= threshold && stakedAmount >= minStake) {
 
 ```bash
 # Clone this repo or create fresh
-npx create-eth@latest -e scaffold-eth/create-eth-extensions:x402-v2
+npx create-eth@latest -e scaffold-eth/create-eth-extensions:x402
 cd your-project-name
 
 # Install dependencies
